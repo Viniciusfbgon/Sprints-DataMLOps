@@ -1,95 +1,100 @@
-✅ Sprint 1 – Fundamentos de Git, Linux e Cloud
-Objetivo principal: Início da jornada DevOps com foco em versionamento, comandos básicos de Linux, introdução à cloud (GCP) e tarefas automatizadas com crontab.
+# 📘 Desafios Trainee - DataMLOps
 
-Atividades realizadas:
+Este repositório contém os desafios feitos durante o processo seletivo de trainee para DataMLOps.
 
-* Aprendizado e prática dos comandos Git + criação de branches e commits no GitLab.
+---
 
-* Estudo do livro Linux Essentials, com resumo e resolução de lista de exercícios.
+## ✅ Sprint 1 – Fundamentos de Git, Linux e Cloud
 
-* Introdução ao Google Cloud Platform (GCP), com criação de instância via documentação.
+**Objetivo:**  
+Iniciar a jornada DevOps com versionamento (Git), comandos básicos de Linux, introdução à nuvem (Google Cloud Platform) e tarefas automatizadas com `crontab`.
 
-* Leitura e implementação de rotina com crontab para limpar a lixeira mensalmente.
+**Atividades realizadas:**
 
-Entregáveis:
+- Prática com comandos Git, criação de branches e commits no GitLab.
+- Estudo e resumo do livro *Linux Essentials* + resolução de exercícios.
+- Criação de instância no Google Cloud via documentação oficial.
+- Implementação de rotina `crontab` para limpar a lixeira mensalmente.
 
-* Commits e branches no GitLab.
+**Entregáveis:**
 
-* Lista de exercícios Linux.
+- Commits e branches no GitLab.
+- Lista de exercícios de Linux.
+- Instância criada na GCP.
+- Script funcional de limpeza agendada com crontab.
 
-* Instância criada no GCP.
+---
 
-* Script funcional do crontab.
+## ✅ Sprint 2 – Containers e Armazenamento na Nuvem
 
-✅ Sprint 2 – Containers e Armazenamento na Nuvem
-Objetivo principal: Entendimento de containers com Docker e uso do Cloud Storage.
+**Objetivo:**  
+Entender o funcionamento de containers (Docker) e utilizar o Cloud Storage da GCP.
 
-Atividades realizadas:
+**Atividades realizadas:**
 
-* Leitura de artigos sobre Docker, Kubernetes e DevOps.
+- Leitura de artigos sobre Docker, Kubernetes e DevOps.
+- Estudo com o vídeo “Docker Crash Course for Absolute Beginners”.
+- Criação de um bucket no Google Cloud Storage.
 
-* Vídeo "Docker Crash Course for Absolute Beginners".
+**Entregáveis:**
 
-* Criação de um bucket no Google Cloud Storage.
+- Docker e Docker Compose rodando na GCP.
+- Bucket configurado no Cloud Storage.
 
-Entregáveis:
+---
 
-* Subir um Docker e um Docker Compose na GCP.
+## ✅ Sprint 3 – Redes, Metodologias Ágeis e CI com GitLab
 
-* Bucket criado no Cloud Storage.
+**Objetivo:**  
+Aprofundar os conhecimentos em redes, metodologias ágeis (Scrum) e integração contínua (CI) com GitLab.
 
-✅ Sprint 3 – Redes, Metodologias Ágeis e CI com GitLab
-Objetivo principal: Consolidar conhecimentos de redes, metodologias ágeis (Scrum) e CI com GitLab.
+**Atividades realizadas:**
 
-Atividades realizadas:
+- Curso completo de Redes de Computadores.
+- Curso introdutório de Scrum.
+- Estudo prático sobre esteiras de CI/CD com GitLab.
 
-* Curso completo de Redes de Computadores.
+**Entregáveis:**
 
-* Curso introdutório de Scrum.
+- Resumo dos cursos de Redes e Scrum.
+- Atividades práticas simulando pipelines de CI/CD.
 
-* Vídeos no Youtube sobre como montar uma esteira.
-Entregáveis:
+---
 
-* Resumo do curso de Redes.
+## ✅ Sprint 4 – Deploy com Docker na GCP
 
-* Resumo do curso de Scrum.
+**Objetivo:**  
+Realizar o deploy de uma aplicação backend (Node.js) com banco de dados, utilizando Docker e Docker Compose na GCP.
 
-* Atividades práticas de como montar pipelines.
+**Atividades realizadas:**
 
-✅ Sprint 4 – Deploy com Docker na GCP
-Objetivo principal: Realizar o deploy de um backend Node.js e banco de dados usando Docker e Docker Compose.
+- Deploy do backend e banco em uma instância da GCP.
+- Criação de dois containers gerenciados por `docker-compose`.
+- Configuração de reinício automático dos containers.
+- Correção de erro de duplicidade que afetava a aplicação.
 
-Atividades realizadas:
+**Entregáveis:**
 
-* Deploy do backend e banco de dados em uma instância da GCP.
+- Arquivo `docker-compose.yml` funcional.
+- Backend e banco rodando em containers na nuvem (GCP).
 
-* Criação de dois contêineres (backend e banco de dados) gerenciados via docker-compose.
+---
 
-* Configuração de reinício automático para garantir disponibilidade da aplicação.
+## ✅ Sprint 5 – CI/CD e Backup Automatizado
 
-* Correção do erro de duplicidade no banco que derrubava o backend.
+**Objetivo:**  
+Criar um pipeline CI/CD completo e configurar backups automáticos do banco de dados.
 
-Entregáveis:
+**Atividades realizadas:**
 
-* Arquivo docker-compose.yml funcional.
+- Implementação de pipeline GitLab CI/CD com ambientes de dev, teste e produção.
+- Criação de script de backup automático do banco PostgreSQL.
+- Integração do backup com um bucket do Cloud Storage.
 
-* Backend e banco em contêineres rodando na GCP.
+**Entregáveis:**
 
-✅ Sprint 5 – CI/CD e Backup Automatizado
-Objetivo principal: Criar pipeline CI/CD com ambientes separados e configurar backup automático diário.
+- Repositório Git com pipeline CI/CD configurado.
+- Script funcional com agendamento automático.
+- Backups diários salvos no Cloud Storage.
 
-Atividades realizadas:
-
-* Implementação de pipeline GitLab CI/CD com separação dos ambientes: dev, teste e produção.
-
-* Criação de script de backup diário do banco PostgreSQL.
-
-* Integração com Cloud Storage para armazenar os backups.
-
-Entregáveis:
-
-* Repositório Git com pipeline completo configurado.
-
-* Script funcional com agendamento automático de backup.
-
-* Backups salvos em bucket do GCP.
+---
